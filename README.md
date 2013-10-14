@@ -1,9 +1,9 @@
 3_3swreg
 ========
 
-3.3v switching reg.
-[schematic|https://raw.github.com/noahp/3_3swreg/master/schematic.png]  
-[board|https://raw.github.com/noahp/3_3swreg/master/board.png]
+3.3v switching reg.  
+![schematic](https://raw.github.com/noahp/3_3swreg/master/schematic.png)  
+![board](https://raw.github.com/noahp/3_3swreg/master/board.png)
 
 IC
 -----
