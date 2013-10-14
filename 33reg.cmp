@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2013-03-04 BZR 3984)-stable date = 10/14/2013 9:12:02 AM
+
+BeginCmp
+TimeStamp = /525BE299;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /525BE30C;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /525BE371;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = inductor_SRN5020;
+EndCmp
+
+BeginCmp
+TimeStamp = /525BE517;
+Reference = P1;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /525BE511;
+Reference = P2;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /525BE4FA;
+Reference = P3;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /525BEDCA;
+Reference = P4;
+ValeurCmp = TST;
+IdModule  = TEST_0.100;
+EndCmp
+
+BeginCmp
+TimeStamp = /525BE285;
+Reference = U1;
+ValeurCmp = AAT1110IJS-3.3-T1;
+IdModule  = SC70JW-8;
+EndCmp
+
+EndListe

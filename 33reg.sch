@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/14/2013 8:28:50 AM
+EESchema Schematic File Version 2  date 10/14/2013 9:11:53 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -220,4 +220,28 @@ Wire Wire Line
 	5300 4850 5300 4700
 Wire Wire Line
 	5550 4700 5550 4850
+$Comp
+L TST P4
+U 1 1 525BEDCA
+P 5800 4700
+F 0 "P4" H 5800 5000 40  0000 C CNN
+F 1 "TST" H 5800 4950 30  0000 C CNN
+F 2 "~" H 5800 4700 60  0000 C CNN
+F 3 "~" H 5800 4700 60  0000 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 525BEDD0
+P 5800 4850
+F 0 "#PWR05" H 5800 4850 30  0001 C CNN
+F 1 "GND" H 5800 4780 30  0001 C CNN
+F 2 "" H 5800 4850 60  0000 C CNN
+F 3 "" H 5800 4850 60  0000 C CNN
+	1    5800 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4850 5800 4700
 $EndSCHEMATC
