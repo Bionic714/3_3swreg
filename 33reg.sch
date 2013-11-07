@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/14/2013 9:11:53 AM
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "14 oct 2013"
+Date "7 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -72,7 +72,7 @@ L C C1
 U 1 1 525BE299
 P 3600 3550
 F 0 "C1" H 3600 3650 40  0000 L CNN
-F 1 "C" H 3606 3465 40  0000 L CNN
+F 1 "4.7uF" H 3606 3465 40  0000 L CNN
 F 2 "~" H 3638 3400 30  0000 C CNN
 F 3 "~" H 3600 3550 60  0000 C CNN
 	1    3600 3550
@@ -121,7 +121,7 @@ L C C2
 U 1 1 525BE30C
 P 4150 4800
 F 0 "C2" H 4150 4900 40  0000 L CNN
-F 1 "C" H 4156 4715 40  0000 L CNN
+F 1 "22uF" H 4156 4715 40  0000 L CNN
 F 2 "~" H 4188 4650 30  0000 C CNN
 F 3 "~" H 4150 4800 60  0000 C CNN
 	1    4150 4800
