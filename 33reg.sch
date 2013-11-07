@@ -244,4 +244,140 @@ F 3 "" H 5800 4850 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5800 4850 5800 4700
+$Comp
+L INDUCTOR L?
+U 1 1 527BCEFC
+P 7850 3950
+F 0 "L?" V 7800 3950 40  0000 C CNN
+F 1 "INDUCTOR" V 7950 3950 40  0000 C CNN
+F 2 "~" H 7850 3950 60  0000 C CNN
+F 3 "~" H 7850 3950 60  0000 C CNN
+	1    7850 3950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9350 3950 2    60   Input ~ 0
+vout+
+Text GLabel 6850 3950 0    60   Input ~ 0
+vin+
+$Comp
+L MOSFET_N Q?
+U 1 1 527BCF75
+P 7150 3850
+F 0 "Q?" H 7160 4020 60  0000 R CNN
+F 1 "MOSFET_N" H 7160 3700 60  0000 R CNN
+F 2 "~" H 7150 3850 60  0000 C CNN
+F 3 "~" H 7150 3850 60  0000 C CNN
+	1    7150 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L MOSFET_N Q?
+U 1 1 527BCF8C
+P 8350 4400
+F 0 "Q?" H 8360 4570 60  0000 R CNN
+F 1 "MOSFET_N" H 8360 4250 60  0000 R CNN
+F 2 "~" H 8350 4400 60  0000 C CNN
+F 3 "~" H 8350 4400 60  0000 C CNN
+	1    8350 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 3950 6950 3950
+Wire Wire Line
+	7350 3950 7550 3950
+Connection ~ 7450 3950
+Wire Wire Line
+	8150 3950 8350 3950
+Wire Wire Line
+	8250 3950 8250 4200
+Connection ~ 8250 3950
+$Comp
+L GND #PWR?
+U 1 1 527BD033
+P 7900 4800
+F 0 "#PWR?" H 7900 4800 30  0001 C CNN
+F 1 "GND" H 7900 4730 30  0001 C CNN
+F 2 "" H 7900 4800 60  0000 C CNN
+F 3 "" H 7900 4800 60  0000 C CNN
+	1    7900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4700 8250 4600
+Wire Wire Line
+	6850 4700 9350 4700
+Connection ~ 7900 4700
+Wire Wire Line
+	7900 4700 7900 4800
+Wire Wire Line
+	8750 3950 9350 3950
+Text GLabel 7250 3550 2    60   Input ~ 0
+sw_a
+Text GLabel 8550 5000 2    60   Input ~ 0
+sw_c
+Wire Wire Line
+	7250 3550 7150 3550
+Wire Wire Line
+	7150 3550 7150 3650
+Wire Wire Line
+	8550 5000 8550 4400
+Text GLabel 6850 4700 0    60   Input ~ 0
+vin-
+Connection ~ 7450 4700
+Text GLabel 9350 4700 2    60   Input ~ 0
+vout-
+Connection ~ 8250 4700
+$Comp
+L C C?
+U 1 1 527BD302
+P 9050 4300
+F 0 "C?" H 9050 4400 40  0000 L CNN
+F 1 "C" H 9056 4215 40  0000 L CNN
+F 2 "~" H 9088 4150 30  0000 C CNN
+F 3 "~" H 9050 4300 60  0000 C CNN
+	1    9050 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4100 9050 3950
+Connection ~ 9050 3950
+Wire Wire Line
+	9050 4500 9050 4700
+Connection ~ 9050 4700
+$Comp
+L MOSFET_N Q?
+U 1 1 527BD436
+P 7350 4300
+F 0 "Q?" H 7360 4470 60  0000 R CNN
+F 1 "MOSFET_N" H 7360 4150 60  0000 R CNN
+F 2 "~" H 7350 4300 60  0000 C CNN
+F 3 "~" H 7350 4300 60  0000 C CNN
+	1    7350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4100 7450 3950
+Wire Wire Line
+	7450 4500 7450 4700
+Text GLabel 7050 4300 0    60   Input ~ 0
+sw_b
+Wire Wire Line
+	7050 4300 7150 4300
+$Comp
+L MOSFET_N Q?
+U 1 1 527BD4D8
+P 8550 3850
+F 0 "Q?" H 8560 4020 60  0000 R CNN
+F 1 "MOSFET_N" H 8560 3700 60  0000 R CNN
+F 2 "~" H 8550 3850 60  0000 C CNN
+F 3 "~" H 8550 3850 60  0000 C CNN
+	1    8550 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 3550 2    60   Input ~ 0
+sw_d
+Wire Wire Line
+	8650 3550 8550 3550
+Wire Wire Line
+	8550 3550 8550 3650
 $EndSCHEMATC
